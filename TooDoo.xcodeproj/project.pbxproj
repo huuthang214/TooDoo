@@ -17,6 +17,8 @@
 		5F1B507A2A0263140039C82D /* TooDooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B50792A0263140039C82D /* TooDooTests.swift */; };
 		5F1B50842A0263140039C82D /* TooDooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B50832A0263140039C82D /* TooDooUITests.swift */; };
 		5F1B50862A0263140039C82D /* TooDooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B50852A0263140039C82D /* TooDooUITestsLaunchTests.swift */; };
+		5F1B509C2A03A21C0039C82D /* TooDoo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B509A2A03A21C0039C82D /* TooDoo+CoreDataClass.swift */; };
+		5F1B509D2A03A21C0039C82D /* TooDoo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1B509B2A03A21C0039C82D /* TooDoo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5F1B507F2A0263140039C82D /* TooDooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooDooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1B50832A0263140039C82D /* TooDooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooDooUITests.swift; sourceTree = "<group>"; };
 		5F1B50852A0263140039C82D /* TooDooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooDooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F1B509A2A03A21C0039C82D /* TooDoo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TooDoo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F1B509B2A03A21C0039C82D /* TooDoo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TooDoo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		5F1B505E2A0263130039C82D /* TooDoo */ = {
 			isa = PBXGroup;
 			children = (
+				5F1B509E2A03A28B0039C82D /* TooDooListItem */,
 				5F1B505F2A0263130039C82D /* AppDelegate.swift */,
 				5F1B50612A0263130039C82D /* SceneDelegate.swift */,
 				5F1B50632A0263130039C82D /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				5F1B50852A0263140039C82D /* TooDooUITestsLaunchTests.swift */,
 			);
 			path = TooDooUITests;
+			sourceTree = "<group>";
+		};
+		5F1B509E2A03A28B0039C82D /* TooDooListItem */ = {
+			isa = PBXGroup;
+			children = (
+				5F1B509A2A03A21C0039C82D /* TooDoo+CoreDataClass.swift */,
+				5F1B509B2A03A21C0039C82D /* TooDoo+CoreDataProperties.swift */,
+			);
+			path = TooDooListItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +277,10 @@
 			files = (
 				5F1B50642A0263130039C82D /* ViewController.swift in Sources */,
 				5F1B50602A0263130039C82D /* AppDelegate.swift in Sources */,
+				5F1B509C2A03A21C0039C82D /* TooDoo+CoreDataClass.swift in Sources */,
 				5F1B50622A0263130039C82D /* SceneDelegate.swift in Sources */,
 				5F1B506A2A0263130039C82D /* TooDoo.xcdatamodeld in Sources */,
+				5F1B509D2A03A21C0039C82D /* TooDoo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
